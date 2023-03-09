@@ -48,7 +48,9 @@ Obs: esse objeto acima não pode conter extensão(adição de property). Pois co
 ~~~ javascript
 let person = 'Tom';
 console.log(person.age); //output: undefined
-person.age = 90; //output: undefined
+person.age = 90; 
+console.log(person.age); //output: undefined
+
 ~~~ 
 
 JS var podem conter vários valores
